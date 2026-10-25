@@ -17,7 +17,7 @@ npm run build
 
 ## Публикация на GitHub Pages
 
-Workflow `.github/workflows/deploy.yml` собирает проект и публикует его на GitHub Pages при каждом push в `main`. Сборка выполняется из TypeScript исходников Vite без Babel.
+Workflow `../.github/workflows/deploy.yml` собирает проект и публикует его на GitHub Pages при каждом push в `main`. Сборка выполняется из TypeScript исходников Vite без Babel.
 
 В настройках репозитория откройте **Settings → Pages** и выберите **GitHub Actions** в качестве источника публикации. После этого дождитесь завершения workflow **Build and deploy to GitHub Pages** во вкладке **Actions**. Vite автоматически использует имя репозитория для базового пути Pages.
 
